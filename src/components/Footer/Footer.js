@@ -3,7 +3,7 @@ import './index.css';
 const Footer = () => {
   return (
     <Footer>
-      <span>&copy; Lindsey Mabel Photography</span>
+      <span> Lindsey Mabel Photography</span>
     </Footer>
   );
 };
