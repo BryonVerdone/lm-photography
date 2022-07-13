@@ -2,9 +2,9 @@ import React from 'react';
 import './index.css';
 const Footer = () => {
   return (
-    <Footer>
-      <span> Lindsey Mabel Photography</span>
-    </Footer>
+    <footer>
+      <span>Lindsey Mabel Photography</span>
+    </footer>
   );
 };
 
