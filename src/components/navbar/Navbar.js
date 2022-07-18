@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Logo from '../../assets/logo/LMP-logo.png';
 const Navigation = () => {
   return (
-    <Navbar expand='lg'>
+    <Navbar sticky='top' expand='lg'>
       <Container className='Navbar'>
         <Navbar.Brand>
           {' '}

@@ -1,0 +1,46 @@
+.hero-section {
+  width: 100%;
+  background-color: #94dfc9;
+}
+.hero-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* align-items: center; */
+  place-items: center;
+  margin: 0 auto;
+  padding: 3rem 0;
+  max-width: 1170px;
+}
+@media screen and (max-width: 992px) {
+  .hero-content {
+    grid-template-columns: 1fr;
+  }
+  .hero-text {
+    margin-bottom: 2rem;
+  }
+}
+
+.hero-text h2 {
+  font-size: 36px;
+}
+.hero-text span {
+  font-size: 2rem;
+}
+.hero-img-container {
+  border-radius: 15px;
+  max-width: 320px;
+}
+.hero-img {
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.hero-icons {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.hero-icons a {
+  color: black;
+}
