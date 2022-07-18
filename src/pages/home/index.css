@@ -34,3 +34,6 @@
   justify-content: center;
   gap: 20px;
 }
+.hero-icons a {
+  color: black;
+}
