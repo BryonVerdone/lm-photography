@@ -19,6 +19,11 @@
     margin-bottom: 2rem;
   }
 }
+
+.hero-text h2 {
+  font-size: 36px;
+}
+
 .hero-img-container {
   border-radius: 15px;
   max-width: 320px;
