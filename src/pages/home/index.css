@@ -1,6 +1,7 @@
 .hero-section {
   width: 100%;
-  background-color: #94dfc9;
+  /* background-color: #94dfc9; */
+  padding: 0 1rem;
 }
 .hero-content {
   display: grid;
@@ -16,6 +17,11 @@
     grid-template-columns: 1fr;
   }
   .hero-text {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 2rem;
   }
 }
@@ -24,23 +30,30 @@
   font-size: 36px;
 }
 .hero-text span {
-  font-size: 2rem;
+  margin-bottom: 10px;
 }
 .hero-img-container {
   border-radius: 15px;
   max-width: 320px;
 }
+
 .hero-img {
   width: 100%;
   border-radius: 15px;
   object-fit: cover;
 }
 .hero-icons {
+  margin-top: 10px;
   font-size: 1.5rem;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 20px;
 }
 .hero-icons a {
-  color: black;
+  color: #38bc95;
+  transition: 300ms;
+}
+.hero-icons a:hover {
+  color: #81d9bf;
 }
