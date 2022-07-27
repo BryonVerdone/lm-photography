@@ -57,3 +57,25 @@
 .hero-icons a:hover {
   color: #81d9bf;
 }
+
+/* 
+==========
+About section
+==========
+*/
+.about-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.about-img {
+  border-radius: 15px;
+  width: 320px;
+  height: 480px;
+}
+.about-text {
+  width: 50%;
+}
